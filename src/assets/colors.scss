@@ -1,0 +1,19 @@
+$white: #bbb;
+$red: #ce7a82;
+$blue: #76a8d2;
+$orange: #d08770;
+$purple: #b48ead;
+$yellow: #f1c876;
+$grey: #666666;
+
+a {
+  color: $purple;
+  background-color: rgba($purple, 0.1);
+  &:hover {
+    background-color: rgba($purple, 0.2);
+  }
+}
+
+.yellow { color: $yellow }
+.grey { color: $grey }
+.purple { color: $purple }

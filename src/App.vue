@@ -1,28 +1,43 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" v-on:click="focus()">
+    <Terminal ref="terminal" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Terminal from './components/Terminal.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Terminal
+  },
+  methods: {
+    focus: function () {
+      // is that good practice?
+      this.$refs.terminal.$refs.prompt.focus()
+    }
   }
 }
 </script>
 
 <style>
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import '~reset-css/reset.css';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #2b303b;
+  font-size: 14px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  line-height: 1.35rem;
 }
 </style>
