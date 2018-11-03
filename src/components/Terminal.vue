@@ -29,7 +29,7 @@ export default {
   data: function () {
     return {
       user: 'guest',
-      domain: 'karimhossenbux',
+      domain: 'vuebuntu',
       dir: '/var/www/',
       advice: '',
       commands: [
@@ -38,7 +38,7 @@ export default {
     }
   },
   mounted: function () {
-    // this.getAdvice()
+    this.getAdvice()
     this.$refs.prompt.focus()
   },
   updated: function () {
@@ -74,7 +74,7 @@ export default {
     },
     getAdvice: function () {
       let vm = this
-      axios.get('http://api.adviceslip.com/advice')
+      axios.get('https://api.adviceslip.com/advice')
         .then(function (response) {
           vm.$nextTick(function () {
             vm.advice = response.data.slip.advice
@@ -189,7 +189,7 @@ export default {
     help: function () {
       return [
         'You can use the following commands to get around:',
-        // '<i class="yellow">motd</i> \t\t <i class="grey">get message of the day</i>',
+        '<i class="yellow">motd</i> \t\t <i class="grey">get message of the day</i>',
         '<i class="yellow">whoami</i> \t\t <i class="grey">get info on this.guy</i>',
         '<i class="yellow">ls</i> \t\t <i class="grey">show files in current directory</i>',
         '<i class="yellow">cat</i> <i class="light">FILENAME</i> \t <i class="grey">show filename content</i>',
