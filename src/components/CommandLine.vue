@@ -33,7 +33,6 @@ export default {
     text-decoration: none;
     padding: 0 2px;
   }
-  img { width: 300px }
 }
 .sep { margin: 0.5rem 0 }
 .ascii { color: $grey }
@@ -45,7 +44,4 @@ span { color: $purple }
 .directory { color: $blue }
 .light { font-weight: normal; font-style: italic; }
 .welcome { line-height: 1rem; }
-.duck {
-  font-size: 40px;
-}
 </style>

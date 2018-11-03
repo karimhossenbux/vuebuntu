@@ -91,11 +91,11 @@ export default {
           ' ',
           '<i class="grey">*=========================================================================*</i>',
           ' ',
-          ` <i class="grey">Welcome to Vuebuntu 0.1.0-beta no-LTS (built with vuejs@${dependencies.vue})</i>`,
+          `<i class="grey">Welcome to Vuebuntu 0.1.0-beta no-LTS (built with vuejs@${dependencies.vue})</i>`,
           ' ',
-          ' I\'m <i class="purple">Karim Hossenbux</i>, a developer<i class="grey">/</i>designer and this is my personal website',
+          'I\'m <i class="purple">Karim Hossenbux</i>, a developer<i class="grey">/</i>designer and this is my personal website',
           ' ',
-          ' Type <i class="yellow">`help`</i> to get a list of commands',
+          'Type <i class="yellow">`help`</i> to get a list of commands',
           ' ',
           `<i class="grey">¿================maybe=i=have=hidden=something===who=knows================?</i>`,
           ' '
@@ -191,7 +191,7 @@ export default {
         'You can use the following commands to get around:',
         '<i class="yellow">motd</i> \t\t <i class="grey">get message of the day</i>',
         '<i class="yellow">whoami</i> \t\t <i class="grey">get info on this.guy</i>',
-        '<i class="yellow">ls</i> \t\t <i class="grey">show files in current directory</i>',
+        '<i class="yellow">ls</i> \t\t <i class="grey">show files in directory</i>',
         '<i class="yellow">cat</i> <i class="light">FILENAME</i> \t <i class="grey">show filename content</i>',
         // '<i class="yellow">aww</i> \t\t <i class="grey">get some aww</i>',
         '<i class="yellow">clear</i> \t\t <i class="grey">clear current screen</i>',
@@ -221,6 +221,12 @@ export default {
   padding: 0.85rem;
   * {
     max-width: 760px;
+  }
+  @media (max-width: 599px) {
+    padding: 0.4rem;
+    pre {
+      word-break: break-all;
+    }
   }
 }
 </style>
