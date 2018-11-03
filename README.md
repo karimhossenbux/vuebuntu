@@ -1,26 +1,13 @@
-# karimhossenbux.com
+### Vuebuntu - my personal website built with vuejs
 
-## Project setup
-```
-npm install
-```
+A terminal like portfolio/resume to learn more about me and my skills. It really have basic commands.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I might be hiding a `.secret` there just for fun 👀
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**Demo:** [karimhossenbux.com](https://karimhossenbux.com)
 
-### Run your tests
-```
-npm run test
-```
+##### Credits
 
-### Lints and fixes files
-```
-npm run lint
-```
+- mainly inspired by [codebyte.re](http://codebyte.re) - hey look, a `.re` domain from my hometown! 🇷🇪
+- [adviceslip.com](http://adviceslip.com) for the message of the day API 🙏
+- my love for `cli` ❤️
