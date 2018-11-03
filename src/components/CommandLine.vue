@@ -18,7 +18,7 @@ export default {
   props: ['user', 'dir', 'domain', 'cmd'],
   data: function () {
     return {
-      response: this.$parent.run(this.cmd)
+      response: this.$parent.run(this.user, this.cmd)
     }
   }
 }
