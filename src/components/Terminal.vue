@@ -113,7 +113,7 @@ export default {
         ' ',
         'Since beginning my journey as a freelance about 8 years ago, I\'ve done remote work, consulted and collaborated with clients and agencies to create digital products for both businesses and consumers. More info on <a href="https://www.linkedin.com/in/karimhossenbux/" target="_blank">linkedin</a>.',
         ' ',
-        'You can also catch me on <a href="https://twitter.com/painbouchon" target="_blank">twitter</a>, <a href="https://github.com/karimhossenbux" target="_blank">github</a> or <a href="https://instagram.com/karimhossenbux" target="_blank">instagram</a>.',
+        'You can also catch me on <a href="https://twitter.com/chewingcode" target="_blank">twitter</a> or <a href="https://github.com/karimhossenbux" target="_blank">github</a>.',
         ' ',
         `Let's talk if you want me to work for you, or with you for a collab 👌`
       ]
@@ -136,8 +136,8 @@ export default {
       } else if (cmd.includes('skills.json')) {
         return [
           '{',
-          `   <i class="purple">frontEnd</i>: [ '<i class="orange">javascript</i>', '<i class="orange">vuejs</i>', '<i class="orange">html5/css3</i>', '<i class="orange">sass</i>' ],`,
-          `   <i class="purple">backEnd</i>: [ '<i class="orange">php</i>', '<i class="orange">laravel</i>', '<i class="orange">wordpress</i>', '<i class="orange">electronjs</i>', '<i class="orange">nodejs</i>' ],`,
+          `   <i class="purple">frontEnd</i>: [ '<i class="orange">javascript</i>', '<i class="orange">vuejs</i>', '<i class="orange">nuxt</i>', '<i class="orange">html5/css3</i>', '<i class="orange">sass</i>' ],`,
+          `   <i class="purple">backEnd</i>: [ '<i class="orange">php</i>', '<i class="orange">laravel</i>', '<i class="orange">lumen</i>', '<i class="orange">wordpress</i>', '<i class="orange">electronjs</i>', '<i class="orange">nodejs</i>' ],`,
           `   <i class="purple">tools</i>: [ '<i class="orange">npm</i>', '<i class="orange">webpack</i>', '<i class="orange">git</i>', '<i class="orange">gulp</i>', '<i class="orange">grunt</i>' ],`,
           `   <i class="purple">design</i>: [ '<i class="orange">sketch</i>', '<i class="orange">svg animation</i>' ],`,
           `   <i class="purple">misc</i>: [ '<i class="orange">nginx</i>', '<i class="orange">xcode/swift</i>', '<i class="orange">python</i>' ]`,
@@ -145,9 +145,8 @@ export default {
         ]
       } else if (cmd.includes('contact.md')) {
         return [
-          '<a href="https://twitter.com/painbouchon" target="_blank">painbouchon @ twitter</a>',
+          '<a href="https://twitter.com/chewingcode" target="_blank">chewingcode @ twitter</a>',
           '<a href="https://github.com/karimhossenbux" target="_blank">karimhossenbux @ github</a>',
-          '<a href="https://instagram.com/karimhossenbux" target="_blank">karimhossenbux @ instagram</a>',
           ' ',
           'Type <i class="yellow">`email`</i> to get my email.'
         ]
