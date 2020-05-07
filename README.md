@@ -4,7 +4,7 @@ A terminal like portfolio/resume to learn more about me and my skills. It really
 
 I might be hiding a `.secret` there just for fun 👀
 
-**Demo:** [karimhossenbux.com](https://karimhossenbux.com)
+**Demo:** [chewingcode.com](https://chewingcode.com)
 
 ##### Credits
 
